@@ -1,54 +1,54 @@
-## Edian Firewall
+## Endian Firewall
 
-O Endian Firewall é uma [distribuição Linux](https://pt.wikipedia.org/wiki/Distribui%C3%A7%C3%A3o_Linux) especializada em roteamento/firewall que possui uma interface unificada de gerenciamento. Foi desenvolvido pela italiana [Endian Srl](https://pt.wikipedia.org/w/index.php?title=Societ%C3%A0_a_Responsabilit%C3%A0_Limita&action=edit&redlink=1) e pela comunidade.
+Endian Firewall es una [distribución de Linux](https://es.wikipedia.org/wiki/Distribuci%C3%B3n_Linux) especializada en enrutamiento / firewall que tiene una interfaz de administración unificada. Fue desarrollado por la compañia italiana [Endian Srl] (https://es.wikipedia.org/wiki/Sociedad_de_responsabilidad_limitada) y por la comunidad.
 
-O Endian Firewall foi originalmente baseado no [IPCop](https://pt.wikipedia.org/wiki/IPCop), sendo que este é um fork do projeto [Smoothwall](http://en.wikipedia.org/wiki/SmoothWall).
-[Wikipédia](https://pt.wikipedia.org/wiki/Endian_Firewall).
+Endian Firewall se basó originalmente en [[IPCop](https://es.wikipedia.org/wiki/IPCop), que es una bifurcación del proyecto [Smoothwall] (http://en.wikipedia.org/wiki/SmoothWall).
+[Wikipédia](https://es.wikipedia.org/wiki/Endian_Firewall).
 
 ![Image](/images/logo.jpg)
 
-- A Versão 3.0 contém os seguintes pacotes e funcionalidades:
-- Firewall (ambas direções)
+- La versión 3.0 contiene los siguientes paquetes y características: 
+- Firewall (Bidireccional)
 - Gateway
-- VPN com OpenVPN ou IPsec
-- Web Antivírus
-- Web Anti-spam
-- E-Mail Antivírus
-- E-Mail Anti-spam
-- Transparente HTTP-Proxy
-- Filtro de Conteúdo
-- Ponto de Acesso sem Fio Seguro
-- Protocolo de Inicialização de Sessão - SIP e Suporte para VoIP
-- Tradução de Endereços de Rede NAT
-- Multi endereços IP (apelidos/aliases)
-- HTTPS web interface
-- Estatísticas de Conexão
-- Log de tráfego na rede
-- Redirecionamento de logs para servidor externo
-- DHCP-Servidor
-- Servidor de Tempo NTP-Servidor
-- Sistema de Detecção de Intrusos IDS
-- Sistema de Prevenção de Intrusos IPS
-- ADSL-Modem Suporte
+- VPN con OpenVPN o IPsec
+- Antivirus Web
+- Anti-spam Web
+- Antivirus E-Mail
+- Anti-spam E-Mail
+- Proxy HTTP transparente
+- Filtro de contenido
+- Punto de acceso inalámbrico seguro
+- Protocolo de inicio de sesión - SIP y soporte para VoIP
+- Traducción de direcciones de red NAT
+- Direcciones IP múltiples (alias)
+- Interfaz web HTTPS
+- Estadísticas de conexión
+- Log de tráfico de redde
+- Redirección de Logs a servidor externo
+- Servidor DHCP
+- Servidor de hora del servidor NTP
+- Sistema de detección de intrusos IDS (https://es.wikipedia.org/wiki/Sistema_de_detecci%C3%B3n_de_intrusos)
+- Sistema de prevención de intrusiones IPS (https://es.wikipedia.org/wiki/Sistema_de_prevenci%C3%B3n_de_intrusos)
+- Soporte de módem ADSL
 
-### Redes do Endian Firewall
+### Redes de  Endian Firewall
 
-O Endian separa as redes conectadas a ele em quatro zonas principais (Red, Green, Blue and Orage), as duas zonas mais importantes - VERDE e VERMELHA.
+Endian separa las redes conectadas a él en cuatro zonas principales (Red, Green, Blue and Orage), las dos zonas más importantes: VERDE y ROJA.
 ![Image](/images/zona/zones.png)
 
 
-- **VERMELHA**: esta é chamada de segmento não confiável, ou seja, a WAN: Abrange todas as redes fora do Endian, em termos gerais, a Internet, e é a fonte de conexões de entrada. Possibilita configuração do modo failover.
+- **ROJA**: esto se denomina segmento no confiable, es decir, WAN: cubre todas las redes fuera de Endian, en términos generales, Internet, y es la fuente de las conexiones entrantes. Habilita la configuración del modo failover.
 
-- **VERDE**: a rede interna, ou seja, a LAN. Esta zona é a mais protegida e é dedicado às estações de trabalho e nunca deve ser acessado diretamente a partir da zona vermelha. É também a única zona que, por padrão pode acessar a interface de gerenciamento.
+- **VERDE**: la red interna, es decir, la LAN. Esta zona es la más protegida y está dedicada a las estaciones de trabajo y nunca debe accederse directamente desde la zona roja. También es la única zona que, de forma predeterminada, puede acceder a la interfaz de gestión.
 
-- **LARANJA** ou **DMZ**: esta zona deve hospedar os servidores que precisam acessar a Internet para fornecer serviços (por exemplo, SMTP / POP, SVN e HTTP). Se um invasor consegue quebrar um dos serviços/servidores, o mesmo ficará preso dentro da DMZ e não será capaz atingir a zona verde.
+- **NARANJA** o **DMZ**: esta zona debe albergar los servidores que necesitan acceder a Internet para brindar servicios (por ejemplo, SMTP / POP, SVN y HTTP). Si un atacante logra romper uno de los servicios / servidores, quedará atrapado dentro de la DMZ y no podrá llegar a la zona verde.
 
-- **AZUL**: zona Wi-Fi, ou seja, a zona que deve ser usado por clientes sem fio para acessar a Internet. As redes sem fio, muitas vezes não são seguras, então a ideia é isolar todos os clientes conectados sem fio em sua própria zona sem acesso a qualquer outra zona, exceto RED.
+- **AZUL**: Zona Wi-Fi, es decir, la zona que deben utilizar los clientes inalámbricos para acceder a Internet. Las redes inalámbricas a menudo no son seguras, por lo que la idea es aislar a todos los clientes conectados de forma inalámbrica en su propia zona sin acceso a ninguna otra zona, excepto a RED.
 
 ### Instalando Endian Firewall
 
-**1** Inicie  o computador com opção de BOOT via CD-ROM, será apresentado a tela ISOLINUX,
-pressione ENTER para continuar com instalação.
+**1** Inicie la computadora con una opción de BOOT a través de CD-ROM, se mostrará la pantalla ISOLINUX,
+presione ENTER para continuar con la instalación.
 
 ![Image](/images/install/install1.jpg)
 
