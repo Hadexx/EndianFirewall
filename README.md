@@ -1,6 +1,6 @@
 ## Endian Firewall
 
-Endian Firewall es una [distribución de Linux](https://es.wikipedia.org/wiki/Distribuci%C3%B3n_Linux) especializada en enrutamiento / firewall que tiene una interfaz de administración unificada. Fue desarrollado por la compañia italiana [Endian Srl] (https://es.wikipedia.org/wiki/Sociedad_de_responsabilidad_limitada) y por la comunidad.
+Endian Firewall es una [distribución de Linux](https://es.wikipedia.org/wiki/Distribuci%C3%B3n_Linux) especializada en Firewall/Proxy que posee una interfaz de administración unificada. Fue desarrollado por la compañia italiana [Endian Srl] (https://es.wikipedia.org/wiki/Sociedad_de_responsabilidad_limitada) y por la comunidad.
 
 Endian Firewall se basó originalmente en [[IPCop](https://es.wikipedia.org/wiki/IPCop), que es una bifurcación del proyecto [Smoothwall] (http://en.wikipedia.org/wiki/SmoothWall).
 [Wikipédia](https://es.wikipedia.org/wiki/Endian_Firewall).
