@@ -47,35 +47,29 @@ Endian separa las redes conectadas a él en cuatro zonas principales (Red, Green
 
 ### Instalando Endian Firewall
 
-**1** Inicie la computadora con una opción de BOOT a través de CD-ROM, se mostrará la pantalla ISOLINUX,
-presione ENTER para continuar con la instalación.
+**1** Inicie la computadora con una opción de BOOT a través de CD-ROM, se mostrará la pantalla ISOLINUX, presione ENTER para continuar con la instalación.
 
 ![Image](/images/install/install1.jpg)
 
-**2** Selecione a linguagem English, após a escolha pressione TAB para descer ate o botão OK em seguida aperte a tecla ENTER. Será apresentada tela de boas vindas e
-perguntara se deseja realizar a instalação do Endian pressione ENTER.
+**2** SSeleccione el idioma inglés, después de elegir, presione TAB para desplazarse hacia abajo hasta el botón OK, luego presione la tecla ENTER. Se le presentará una pantalla de bienvenida y pregunte si desea realizar la instalación de Endian presione ENTER.
 
 ![image](/images/install/install2.jpg)
 
-**3** Proximo passo informa que todos os arquivos do seu disco serão apagados, prossiga com selecionando YES e depois pressione OK para continuar. Em seguida será perguntado
-se deseja habilitar porta serial do computador, escolha opção NO em seguida OK.
+**3** El proximo paso informa que todos los archivos en su disco serán eliminados, proceda con la selección de SÍ y luego presione OK para continuar. Luego se le preguntará si desea habilitar el puerto serie de la computadora para el servicio de consola, la elegimos según, la necesidad y luego OK.
 
 ![Image](/images/install/install3.jpg)
 
-**4** Finalizado processo de instalação devemos configurar endereço IP/MÁSCARA da rede VERDE. Este IP será utilizado como Gateway padrão e para acesso ao Endian via SSH e
-interface WEB, após configurar IP escolha opção OK.
+**4** Una vez finalizado el proceso de instalación, debemos configurar la dirección IP / MASCARA de la red VERDE. Esta IP se utilizará como puerta de enlace estándar y para acceder a Endian a través de SSH e Interfaz WEB, luego de configurar IP elija la opción OK.
 
 ![Image](/images/install/ip.jpg)
 
-**5** Por fim, surge aviso indicando que você ejete o CD de instalação.
+**5** Finalmente, aparece una advertencia que indica que expulsa el CD de instalación.
 
 ![Image](/images/install/cd.jpg)
 
 ### Acesso Web Admin Endian Firewall
 
-Acessaremos a interface gráfica do Endia através de um navegador, será necessário a utilização de uma maquina cliente. No seu navegador digite **https://endereipdoseuendian:10443**, no primeiro acesso você será informado que existe um problema de certificado. Basta clicar em continuar no site
-não seguro.
-
+Accederemos a la interfaz gráfica de Endian a través de un navegador, será necesario utilizar una máquina cliente. En su navegador escriba ** https: // direccionENDIAN: 10443 **, en el primer inicio de sesión se le informará que hay un problema con el certificado. Simplemente haga clic en continuar en el sitio web no seguro.
 ![Image](/images/access/acess1.JPG)
 
 **1** Após abrirá a janela inicial clique no botão >>> para continuar.
