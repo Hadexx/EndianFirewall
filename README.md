@@ -72,20 +72,21 @@ Endian separa las redes conectadas a él en cuatro zonas principales (Red, Green
 Accederemos a la interfaz gráfica de Endian a través de un navegador, será necesario utilizar una máquina cliente. En su navegador escriba ** https: // direccionENDIAN: 10443 **, en el primer inicio de sesión se le informará que hay un problema con el certificado. Simplemente haga clic en continuar en el sitio web no seguro.
 ![Image](/images/access/acess1.JPG)
 
-**1** Após abrirá a janela inicial clique no botão >>> para continuar.
+**1** Después de abrir la ventana inicial, haga clic en el botón >>> para continuar.
 
 ![Image](/images/access/acess2.JPG)
 
-**2** Escolha o idioma e fuso horário e clique no botão >>> para continuar.
+**2** Elija su idioma y zona horaria y haga clic en el botón >>> para continuar.
 
 ![Image](/images/access/acess3.jpg)
 
-**3** Marque opção que aceita os termos e avance.
+**3** Marque la opción que acepta los términos y continúe.
 
 ![Image](/images/access/acess4.jpg)
 
-**4** Tela seguinte pergunta se você deseja restaurar uma cópia de segurança já existente, apenas clique
- no botão >>> para avençar.
+**4** La siguiente pantalla le pregunta si desea restaurar una copia de seguridad existente, simplemente haga clic en
+
+ el botón >>> para avanzar.
 
 ![Image](/images/access/acess5.jpg)
 
